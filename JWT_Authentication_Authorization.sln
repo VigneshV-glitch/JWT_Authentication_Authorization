@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{76E858C9-DB97-4162-BC67-DF1245AD5DCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT", "JWT\JWT.csproj", "{BE644240-58DA-421F-9712-B0A5907D500A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE644240-58DA-421F-9712-B0A5907D500A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE644240-58DA-421F-9712-B0A5907D500A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE644240-58DA-421F-9712-B0A5907D500A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE644240-58DA-421F-9712-B0A5907D500A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE644240-58DA-421F-9712-B0A5907D500A} = {76E858C9-DB97-4162-BC67-DF1245AD5DCE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {018A252D-5F5B-4805-A0C9-6A789D3EF607}
+	EndGlobalSection
+EndGlobal
