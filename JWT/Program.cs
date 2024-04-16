@@ -15,7 +15,7 @@ builder.Services.AddEndpointsApiExplorer();
 //Add Authentication to SwaggerUI
 builder.Services.AddSwaggerGen(option=>
 {
-    option.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    option.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
     {
         In = ParameterLocation.Header,
         Type = SecuritySchemeType.ApiKey,
